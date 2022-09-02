@@ -6,7 +6,7 @@ public enum Elements {
     NEON("Неон", "Ne", 10),
     LITHIUM("Литий", "Li", 3),
     NATRIUM("Натрий", "Na",11),
-    RHODIUM("Родий", "Rh",45),
+    ZINCUM("Цинк", "Zn",30),
     CHLORUM("Хлор", "Cl",17),
     BELIRIY("Берилий", "Be",24);
 
@@ -19,11 +19,26 @@ public enum Elements {
     public String getSymbol() {
         return symbol;
     }
+
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
+
     public String getName() {
         return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getAtomNumber() {
         return atomNumber;
+    }
+
+    public void setAtomNumber(int atomNumber) {
+        this.atomNumber = atomNumber;
     }
 
     Elements(String name,String symbol, int atomNumber) {
