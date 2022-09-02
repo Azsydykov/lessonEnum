@@ -6,9 +6,8 @@ public enum Elements {
     NEON("Неон", "Ne", 10),
     LITHIUM("Литий", "Li", 3),
     NATRIUM("Натрий", "Na",11),
-    ARGON("Аргон", "Ar",18),
     CHLORUM("Хлор", "Cl",17),
-    BELIRIY("Берилий", "Be",34);
+    BELIRIY("Берилий", "Be",24);
 
 
     private String name;
