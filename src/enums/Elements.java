@@ -6,7 +6,6 @@ public enum Elements {
     NEON("Неон", "Ne", 10),
     LITHIUM("Литий", "Li", 3),
     NATRIUM("Натрий", "Na",11),
-    ZINCUM("Цинк", "Zn",30),
     CHLORUM("Хлор", "Cl",17),
     BELIRIY("Берилий", "Be",24);
 
